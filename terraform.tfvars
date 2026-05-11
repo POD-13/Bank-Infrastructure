@@ -1,5 +1,5 @@
 # Environment
-environment = "dev"
+environment = "prod"
 
 # Network
 vpc_cidrblock     = "192.168.0.0/16"
@@ -23,7 +23,7 @@ repository_name = "eks-repository"
 
 # Database
 db_name              = "pod13fintech_db"
-db_instance_class    = "db.t3.micro"
+db_instance_class    = "db.t3.small"
 db_allocated_storage = 20
 
 # DNS
