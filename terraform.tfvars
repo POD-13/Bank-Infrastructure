@@ -1,5 +1,5 @@
 # Environment
-environment = "prod"
+environment = "dev"
 
 # Network
 vpc_cidrblock     = "192.168.0.0/16"
